@@ -1,0 +1,139 @@
+def repe():
+    if p==1:
+            h=float(input("Introducza el numero de horas a convertir: "))
+            r=(h*60)
+            print("El numero de minutos son:" + str(r) + "min" )
+
+    elif p==2:
+        h2=float(input("Introducza el numero de horas a convertir: "))
+        r2=(h2*3600)
+        print("El numero de segundos son:" + str(r2) + "seg")
+
+    elif p==3:
+        h3=float(input("Introducza el numero de minutos a convertir: "))
+        r3=(h3/60)
+        print("El numero de horas son:" + str(r3))
+
+    elif p==4:
+        h4=float(input("Introducza el numero de minutos a convertir: "))
+        r4=(h4*60)
+        print("El numero de segundos son:" + str(r4))
+
+    elif p==5:
+        h5=float(input("Introducza el numero de segundos a convertir: "))
+        r5=(h5/3600)
+        print("El numero de horas son:" + str(r5))
+
+    elif p==6:
+        h6=float(input("Introducza el numero de segundos a convertir: "))
+        r6=(h6/60)
+        print("El numero de minutos son:" + str(r6)) 
+
+    elif p==7:
+        h7=float(input("Introducza el numero de horas a convertir: "))
+        r7=(h7/24)
+        print("El numero de dias son:" + str(r7))
+
+    elif p==8:
+        h8=float(input("Introducza el numero de dias a convertir: "))
+        r8=(h8*24)
+        print("El numero de dias son:" + str(r8))
+
+    elif p==9:
+        h9=float(input("Introducza el numero de dias a convertir: "))
+        r9=(h9*1440)
+        print("El numero de min son:" + str(r9))
+
+    elif p==10:
+        h10=float(input("Introducza el numero de dias a convertir: "))
+        r10=(h10*86400)
+        print("El numero de sec son:" + str(r10))
+
+    elif p==11:
+        h11=float(input("Introducza el numero de dias a convertir: "))
+        r11=(h11/31)
+        r115=(h11/300)
+        print("El numero de meses son" + str(r11) + "  o  " + str(r115))
+
+
+    
+print("""Bienvenido a la calcualdora:
+
+1) CALCULADORA DE HORAS A MIN
+2) CALCULADORA DE HORAS A SEG
+3) CALCULADORA DE MIN A HORAS
+4) CALCULADORA DE MIN A SEGUNDOS
+5) CALCULADORA DE SEG A HORA
+6) CALCULADORA DE SEG A MIN
+7) CALCUALDORA DE HORAS A DIAS
+8) CALCULADORA DE DIAS A HORAS
+9) CALCULADORA DE DIAS A MIN
+10) CALCUALDORA DE DIAS A SEC
+11) CALCULADORA DE DIAS A MESES
+12) CALCULADORA DE MESES A AÑOS
+
+""")
+p= int(input("Elige una opcion: "))
+
+if p==1:
+        h=float(input("Introducza el numero de horas a convertir: "))
+        r=(h*60)
+        print("El numero de minutos son:" + str(r) + "min" )
+
+elif p==2:
+    h2=float(input("Introducza el numero de horas a convertir: "))
+    r2=(h2*3600)
+    print("El numero de segundos son:" + str(r2) + "seg")
+
+elif p==3:
+    h3=float(input("Introducza el numero de minutos a convertir: "))
+    r3=(h3/60)
+    print("El numero de horas son:" + str(r3))
+
+elif p==4:
+    h4=float(input("Introducza el numero de minutos a convertir: "))
+    r4=(h4*60)
+    print("El numero de segundos son:" + str(r4))
+
+elif p==5:
+    h5=float(input("Introducza el numero de segundos a convertir: "))
+    r5=(h5/3600)
+    print("El numero de horas son:" + str(r5))
+
+elif p==6:
+    h6=float(input("Introducza el numero de segundos a convertir: "))
+    r6=(h6/60)
+    print("El numero de minutos son:" + str(r6)) 
+
+elif p==7:
+    h7=float(input("Introducza el numero de horas a convertir: "))
+    r7=(h7/24)
+    print("El numero de dias son:" + str(r7))
+
+elif p==8:
+    h8=float(input("Introducza el numero de dias a convertir: "))
+    r8=(h8*24)
+    print("El numero de dias son:" + str(r8))
+
+elif p==9:
+    h9=float(input("Introducza el numero de dias a convertir: "))
+    r9=(h9*1440)
+    print("El numero de min son:" + str(r9))
+
+elif p==10:
+    h10=float(input("Introducza el numero de dias a convertir: "))
+    r10=(h10*86400)
+    print("El numero de sec son:" + str(r10))
+
+elif p==11:
+    h11=float(input("Introducza el numero de dias a convertir: "))
+    r11=(h11/31)
+    r115=(h11/300)
+    print("El numero de meses son" + str(r11) + "  o  " + str(r115))
+
+elif p==12:
+    h12=float(input("Introducza el numero de meses a convertir: "))
+    r12=(h12/365)
+    print("El numero de años son" + str(r12))
+else:
+    repe()
